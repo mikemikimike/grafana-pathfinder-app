@@ -93,6 +93,12 @@
       "toggleViewMode": "Přepnout režim zobrazení"
     }
   },
+  "interactiveLearningBanner": {
+    "body": "",
+    "cta": "",
+    "guideTitle": "",
+    "title": ""
+  },
   "userProfileBar": {
     "allComplete": "Všechny cesty dokončeny!",
     "allCompleteTooltip": "Dokončili jste každou vzdělávací cestu – skvělá práce!",

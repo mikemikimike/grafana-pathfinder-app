@@ -54,6 +54,13 @@
       "filename": "first-dashboard-cloud/content.json",
       "url": ["/"],
       "targetPlatform": "cloud"
+    },
+    {
+      "id": "welcome-to-interactive-learning",
+      "title": "How interactive learning works",
+      "summary": "Learn what interactive guides are and how the Show me and Do it buttons work, by using them.",
+      "filename": "welcome-to-interactive-learning/content.json",
+      "url": []
     }
   ]
 }

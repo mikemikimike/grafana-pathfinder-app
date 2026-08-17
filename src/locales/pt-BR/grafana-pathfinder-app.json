@@ -89,6 +89,12 @@
       "toggleViewMode": "Alternar modo de visualização"
     }
   },
+  "interactiveLearningBanner": {
+    "body": "",
+    "cta": "",
+    "guideTitle": "",
+    "title": ""
+  },
   "userProfileBar": {
     "allComplete": "Todas as jornadas concluídas!",
     "allCompleteTooltip": "Você concluiu todas as jornadas de aprendizado — bom trabalho!",

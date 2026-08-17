@@ -246,5 +246,21 @@
       "tier": "cloud",
       "minVersion": "12.2.0"
     }
+  },
+  "welcome-to-interactive-learning": {
+    "path": "welcome-to-interactive-learning/",
+    "title": "How interactive learning works",
+    "type": "guide",
+    "description": "Learn what interactive guides are and how the Show me and Do it buttons work, by using them.",
+    "category": "getting-started",
+    "author": {
+      "name": "Interactive Learning",
+      "team": "Grafana Developer Advocacy"
+    },
+    "startingLocation": "/",
+    "testEnvironment": {
+      "tier": "local",
+      "minVersion": "12.2.0"
+    }
   }
 }

@@ -85,6 +85,12 @@
       "toggleViewMode": "Alihkan mode tampilan"
     }
   },
+  "interactiveLearningBanner": {
+    "body": "",
+    "cta": "",
+    "guideTitle": "",
+    "title": ""
+  },
   "userProfileBar": {
     "allComplete": "Semua jalur selesai!",
     "allCompleteTooltip": "Anda telah menyelesaikan semua jalur pembelajaran — kerja bagus!",

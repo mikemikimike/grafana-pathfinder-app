@@ -85,6 +85,12 @@
       "toggleViewMode": "Växla visningsläge"
     }
   },
+  "interactiveLearningBanner": {
+    "body": "",
+    "cta": "",
+    "guideTitle": "",
+    "title": ""
+  },
   "userProfileBar": {
     "allComplete": "Alla lärresor slutförda!",
     "allCompleteTooltip": "Du har slutfört alla lärresor — bra jobbat!",

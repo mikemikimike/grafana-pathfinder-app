@@ -89,6 +89,12 @@
       "toggleViewMode": "Alternar modo de visualização"
     }
   },
+  "interactiveLearningBanner": {
+    "body": "",
+    "cta": "",
+    "guideTitle": "",
+    "title": ""
+  },
   "userProfileBar": {
     "allComplete": "Todos os percursos concluídos!",
     "allCompleteTooltip": "Concluiu todos os percursos de aprendizagem — excelente trabalho!",

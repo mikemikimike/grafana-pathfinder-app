@@ -93,6 +93,12 @@
       "toggleViewMode": "Przełącz tryb widoku"
     }
   },
+  "interactiveLearningBanner": {
+    "body": "",
+    "cta": "",
+    "guideTitle": "",
+    "title": ""
+  },
   "userProfileBar": {
     "allComplete": "Wszystkie ścieżki ukończone!",
     "allCompleteTooltip": "Ukończono wszystkie ścieżki nauki — dobra robota!",

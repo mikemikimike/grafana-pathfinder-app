@@ -1,0 +1,55 @@
+{
+  "id": "welcome-to-interactive-learning",
+  "title": "How interactive learning works",
+  "blocks": [
+    {
+      "type": "markdown",
+      "content": "# Learn Grafana by doing\n\nInteractive guides run **beside** Grafana rather than replacing it, so you practise in the real interface with your own data.\n\nEvery step gives you two buttons:\n\n- **Show me** outlines the exact control to use and explains why, without changing anything.\n- **Do it** performs the step for you, so you can watch what happens.\n\nYou are never locked in. Steps can be repeated, most can be skipped, and your progress is saved if you close the panel partway through.\n\nThe rest of this guide is three real steps. Try both buttons on each one."
+    },
+    {
+      "type": "section",
+      "id": "try-the-buttons",
+      "title": "Try it for yourself",
+      "blocks": [
+        {
+          "type": "markdown",
+          "content": "Start with **Show me**. Nothing changes in Grafana — the step just points at what it is talking about."
+        },
+        {
+          "type": "interactive",
+          "action": "highlight",
+          "reftarget": "a[data-testid='data-testid Nav menu item'][href='/dashboards']",
+          "requirements": ["exists-reftarget"],
+          "skippable": true,
+          "content": "Press **Show me**. The **Dashboards** link in the navigation menu is outlined, and nothing else happens.",
+          "tooltip": "**Show me** is always safe. It highlights the target and scrolls it into view, so you can look before you act."
+        },
+        {
+          "type": "markdown",
+          "content": "Now try **Do it** on the next step. This one actually navigates, so you can see a step take an action on your behalf."
+        },
+        {
+          "type": "interactive",
+          "action": "navigate",
+          "reftarget": "/dashboards",
+          "content": "Press **Do it**. Grafana moves to the **Dashboards** page — the guide stays open beside it and keeps your place.",
+          "tooltip": "**Do it** carries out the step. Navigation, clicks, and filling in forms all work this way, and the guide follows you across pages."
+        },
+        {
+          "type": "interactive",
+          "action": "highlight",
+          "reftarget": "[data-testid='data-testid Call to action button New']",
+          "requirements": ["on-page:/dashboards", "exists-reftarget"],
+          "skippable": true,
+          "hint": "This step waits until you are on the Dashboards page",
+          "content": "This step only becomes available once you are on the **Dashboards** page. Steps can depend on where you are and what you have already done.",
+          "tooltip": "Steps that are not ready yet explain what they are waiting for instead of failing. If a step does not apply to you, skip it."
+        }
+      ]
+    },
+    {
+      "type": "markdown",
+      "content": "## That is the whole idea\n\nThat is everything you need. Open the **Interactive learning** panel any time and it suggests guides for whatever page you are on, so the list changes as you move around Grafana.\n\nYour completed guides, badges, and streak are tracked at the top of the panel."
+    }
+  ]
+}
